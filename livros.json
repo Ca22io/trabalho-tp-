@@ -1,0 +1,23 @@
+[
+     {
+          "nome": "Diario de um banana",
+          "genero": "comedia",
+          "autor": "Jeff Kinney",
+          "paginas": 235,
+          "ano": 2003
+     },
+     {
+          "nome": "O pequeno principe",
+          "genero": "F\u00e1bula,novela,fic\u00e7\u00e3o especulativa",
+          "autor": "Saint-Exup\u00e9ry",
+          "paginas": 176,
+          "ano": 2015
+     },
+     {
+          "nome": "A dan\u00e7a dos drag\u00f5es",
+          "genero": "Aventura, fiqui\u00e7\u00e3o cientifica",
+          "autor": "",
+          "paginas": 300,
+          "ano": 1996
+     }
+]
