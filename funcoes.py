@@ -1,3 +1,5 @@
+# from Funcao_Arq import *
+from Class import *
 import os
 import json
 
@@ -13,20 +15,20 @@ def salvarArquivo(livros: list):
     arq.close()
 
 def cadastrar_livr()-> dict:
-     livro = {}
+     livro = Livro()
     
-     livro["nome"]=input("Qual o nome: ")
+     livro.nome = input("Qual o nome: ")
     
-     livro["genero"]=input("Qual o gênero: ")
+     livro.genero = input("Qual o gênero: ")
 
-     livro["autor"]=input("Qual o autor: ")
+     livro.autor = input("Qual o autor: ")
 
-     livro["paginas"]=int(input("Quantidade páginas: "))
+     livro.paginas = int(input("Quantidade páginas: "))
 
-     livro["ano"]=int(input("Qual o ano de lançamento: "))
+     livro.ano = int(input("Qual o ano de lançamento: "))
     
      livros = ler_arquivo()
-     livros.append(livro)
+     livros.append(livro.cadastro_livro())
      salvarArquivo(livros)
  
 def menu():
