@@ -1,5 +1,29 @@
 from funcoes import *
+import os
 
+def menu():
+    os.system('cls')
+    print("\033[1;32m-=-\033[m"*10)
+
+    print('         \033[4mMenu inicial\033[m')
+    
+    print("\033[1;32m-=-\033[m"*10)
+    
+    print('\033[1;32m-=-\033[m  \033[1m1 - Cadastrar livro\033[m   \033[1;32m-=-\033[m')
+    
+    print('\033[1;32m-=-\033[m  \033[1m2 - Alterar livro\033[m     \033[1;32m-=-\033[m')
+    
+    print('\033[1;32m-=-\033[m  \033[1m3 - Deletar livro\033[m     \033[1;32m-=-\033[m')
+    
+    print('\033[1;32m-=-\033[m  \033[1m4 - Pesquisar livro\033[m   \033[1;32m-=-\033[m')
+    
+    print('\033[1;32m-=-\033[m  \033[1m5 - Listar livros\033[m     \033[1;32m-=-\033[m')
+    
+    print('\033[1;32m-=-\033[m  \033[1m6 - Sair\033[m              \033[1;32m-=-\033[m')
+    
+    print("\033[1;32m-=-\033[m"*10)
+    
+    return int(input('Escolha uma opção: '))
 
 while True:
     escolha = menu()
